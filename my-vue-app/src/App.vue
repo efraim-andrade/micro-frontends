@@ -9,7 +9,6 @@ const divRef = ref()
 onMounted(() => {
   counterWrapper(divRef.value)
 })
-
 </script>
 
 <template>

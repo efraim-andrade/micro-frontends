@@ -23,3 +23,23 @@ The repository is structured as follows:
 - `/my-react-app`: Contains a React application
 - `/my-react-app-2`: Contains a second React application.
 - `/my-vue-app`: Contains a Vue.js application
+
+## How to run
+
+Run the first react app that provides a component
+
+```shell
+  cd ./my-react-app && pnpm i && pnpm run build && pnpm run preview 
+```
+
+Run the vue app that provides a component
+
+```shell
+  cd ./my-vue-app && pnpm i && pnpm run build && pnpm run preview 
+```
+
+Run the second react application that will use all the components
+
+```shell
+  cd ./my-react-app-2 && pnpm i && pnpm run dev 
+```

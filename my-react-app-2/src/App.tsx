@@ -17,7 +17,7 @@ function App() {
 
       <Counter incrementBy={10} initialValue={5} />
 
-      <div ref={animationRef} />
+      <div ref={animationRef as React.RefObject<HTMLDivElement>} />
     </main>
   );
 }
